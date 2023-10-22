@@ -1,3 +1,4 @@
+import About from "@/components/about";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -11,7 +12,7 @@ export default function Home() {
       <h2 className="text-3xl font-normal my-5">11am - 5pm, October 28 2023</h2>
       <Link
         href="https://go.scottylabs.org/pdf"
-        className="inline-block w-fit text-center"
+        className="inline-block w-fit text-center mb-28"
       >
         <Image
           src="/export_button.svg"
@@ -20,6 +21,7 @@ export default function Home() {
           height={60}
         ></Image>
       </Link>
+      <About />
     </main>
   );
 }
