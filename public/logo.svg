@@ -1,0 +1,20 @@
+<svg width="791" height="360" viewBox="0 0 791 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g style="mix-blend-mode:multiply">
+<g style="mix-blend-mode:multiply">
+<g style="mix-blend-mode:multiply">
+<path d="M536.07 359.394H646.325V251.153H767.606V151.051H646.325V106.561L795.694 106.377L696.692 6.45825L536.07 6.45827V359.394Z" fill="#FF51CC"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M695.479 0L695.479 97.9761C695.479 102.397 699.064 105.982 703.485 105.982L804.836 105.982L695.479 0Z" fill="white" fill-opacity="0.5"/>
+</g>
+<g style="mix-blend-mode:multiply">
+<path d="M390.937 258.704V108.551H412.988C451.026 108.551 484.654 141.918 484.654 183.628C484.654 225.337 451.026 258.704 412.988 258.704H390.937ZM280.682 358.807H412.988C521.038 358.807 594.909 283.73 594.909 183.628C594.909 83.5252 521.038 8.44836 412.988 8.44836H280.682V358.807Z" fill="#DCF537"/>
+</g>
+<g style="mix-blend-mode:multiply">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M54.8752 109.267V359.534H165.131V264.993H209.233C291.924 264.993 344.295 212.161 344.295 137.085C344.295 62.0077 291.924 9.1759 209.233 9.1759H164.521L54.8752 109.267ZM165.131 109.278V164.891H198.207C217.502 164.891 228.527 154.324 228.527 137.085C228.527 119.845 217.502 109.278 198.207 109.278H165.131Z" fill="#2AA6FF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M54.8802 109.262H156.506C160.925 109.262 164.506 105.68 164.506 101.262V9.18811L54.8802 109.262Z" fill="white" fill-opacity="0.5"/>
+</g>
+<g style="mix-blend-mode:multiply">
+<ellipse cx="55.2777" cy="304.615" rx="55.2777" ry="55.3845" fill="#2AA6FF"/>
+</g>
+</g>
+</svg>
