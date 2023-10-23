@@ -24,7 +24,7 @@ function Cell({
           : "bg-neutral",
         rows === 1 ? "row-span-1" : rows === 2 ? "row-span-2" : "row-span-3",
         cols === 1 ? "col-span-1" : cols === 2 ? "col-span-2" : "col-span-3",
-        "py-16 flex items-center justify-center -m-2 mix-blend-multiply"
+        "py-16 flex items-center justify-center p-4 -m-2 mix-blend-multiply"
       )}
     >
       {children}
@@ -38,7 +38,7 @@ export default function Schedule() {
       <h1 className="text-5xl font-extrabold">Schedule</h1>
       <p className="font-bold mt-2">See you there at Rashid (GHC 4401)!</p>
       <p className="font-thin">*Javascript Lab hosted separately at GHC 4307</p>
-      <div className="grid grid-cols-4 max-w-3xl mx-auto mt-8 font-bold">
+      <div className="grid grid-cols-4 max-w-3xl mx-auto mt-8 font-bold overflow-hidden">
         <Cell color="blue" rows={1} cols={1}>
           <span className="text-xl">10:30 AM</span>
         </Cell>
