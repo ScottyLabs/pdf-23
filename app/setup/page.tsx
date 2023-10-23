@@ -1,3 +1,3 @@
 export default function Setup() {
-  return <h1>Setup</h1>;
+  return <h1>Under Construction</h1>;
 }
