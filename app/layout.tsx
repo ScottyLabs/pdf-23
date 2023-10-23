@@ -2,10 +2,18 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
+import About from "@/components/about";
+
+import { Space_Grotesk } from "@next/font/google";
 
 export const metadata: Metadata = {
   title: "Portfolio Development Fair",
 };
+
+const space_grotesk = Space_Grotesk({
+  weight: ["400", "500"],
+  subsets: ["latin"],
+});
 
 export default function RootLayout({
   children,
@@ -13,15 +21,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap"
-          rel="stylesheet"
-        ></link>
-      </head>
+    <html lang="en" className={space_grotesk.className}>
       <body>
-        <Navbar /> {children}
+        <Navbar />
+        {children}
+        <About />
         <Footer />
       </body>
     </html>
