@@ -3,25 +3,24 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="bg-secondary-blue h-48 mt-48 flex items-center justify-center">
-      <table className="text-white border-separate border-spacing-x-10 border-spacing-y-2">
+    <div className="bg-secondary-blue h-48 mt-48 flex items-center justify-center text-sm md:text-base">
+      <table className="text-white border-separate border-spacing-x-4 md:border-spacing-x-10 border-spacing-y-2">
         <tbody>
           <tr>
             <td>
-              <h2 className="text-xl font-bold">Stay in touch with us!</h2>
+              <h2 className="text-base md:text-xl font-bold">
+                Stay in touch with us!
+              </h2>
             </td>
             <td>
-              <Link
-                href="https://scottylabs.org"
-                className="text-lg hover:underline"
-              >
+              <Link href="https://scottylabs.org" className="hover:underline">
                 Website
               </Link>
             </td>
             <td>
               <Link
                 href="https://www.instagram.com/cmu.scottylabs/"
-                className="text-lg hover:underline"
+                className="hover:underline"
               >
                 Instagram
               </Link>
@@ -40,7 +39,7 @@ export default function Footer() {
             <td>
               <Link
                 href="https://www.facebook.com/ScottyLabs/"
-                className="text-lg hover:underline"
+                className="hover:underline"
               >
                 Facebook
               </Link>
@@ -48,7 +47,7 @@ export default function Footer() {
             <td>
               <Link
                 href="https://medium.com/tartanhacks"
-                className="text-lg hover:underline"
+                className="hover:underline"
               >
                 Medium
               </Link>
@@ -58,7 +57,7 @@ export default function Footer() {
             <td>
               <Link
                 href="https://scottylabs.slack.com/signup#/domain-signup"
-                className="text-lg hover:underline"
+                className="hover:underline"
               >
                 Slack
               </Link>
@@ -66,14 +65,14 @@ export default function Footer() {
             <td>
               <Link
                 href="mailto:cmu.scottylabs@gmail.com"
-                className="text-lg hover:underline"
+                className="hover:underline"
               >
                 Email
               </Link>
             </td>
           </tr>
           <tr>
-            <td colSpan={3} className="text-center pt-4">
+            <td colSpan={3} className="text-center pt-4 font-thin">
               Made with ❤️ by ScottyLabs
             </td>
           </tr>
