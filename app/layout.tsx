@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 const space_grotesk = Space_Grotesk({
-  weight: ["400", "500"],
+  weight: ["300", "400", "500"],
   subsets: ["latin"],
 });
 
