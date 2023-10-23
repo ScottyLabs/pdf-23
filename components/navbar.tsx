@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Navbar() {
   const logoSize = 128;
   return (
-    <nav className="flex justify-between items-center border-b w-full sticky top-0 bg-white">
+    <nav className="flex justify-between items-center border-b w-full sticky top-0 bg-white z-10">
       <Link href="/">
         <Image
           src="/logo.svg"
