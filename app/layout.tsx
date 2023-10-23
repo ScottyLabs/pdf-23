@@ -4,7 +4,7 @@ import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import About from "@/components/about";
 
-import { Space_Grotesk } from "@next/font/google";
+import { Space_Grotesk } from "next/font/google";
 
 export const metadata: Metadata = {
   title: "Portfolio Development Fair",
