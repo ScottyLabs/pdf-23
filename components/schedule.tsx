@@ -34,7 +34,7 @@ function Cell({
 
 export default function Schedule() {
   return (
-    <>
+    <div className='mt-32'>
       <h1 className="text-5xl font-extrabold">Schedule</h1>
       <p className="font-bold mt-2">See you there at Rashid (GHC 4401)!</p>
       <p className="font-thin">*Javascript Lab hosted separately at GHC 4307</p>
@@ -167,6 +167,6 @@ export default function Schedule() {
           </div>
         </Cell>
       </div>
-    </>
+    </div>
   );
 }
