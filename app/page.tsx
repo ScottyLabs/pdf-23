@@ -1,4 +1,4 @@
-import About from "@/components/about";
+import Schedule from "@/components/schedule";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -21,7 +21,7 @@ export default function Home() {
           height={60}
         ></Image>
       </Link>
-      <About />
+      <Schedule />
     </main>
   );
 }

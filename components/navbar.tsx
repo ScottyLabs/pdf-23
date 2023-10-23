@@ -17,13 +17,13 @@ export default function Navbar() {
       <div className="self-stretch flex items-stretch">
         <Link
           href="/setup"
-          className="px-4 flex items-center hover:bg-primary-yellow"
+          className="px-4 flex items-center hover:bg-primary-yellow font-bold"
         >
           Setup
         </Link>
         <Link
           href="/speakers"
-          className="px-4 flex items-center hover:bg-primary-yellow"
+          className="px-4 flex items-center hover:bg-primary-yellow font-bold"
         >
           Speakers
         </Link>

@@ -23,7 +23,7 @@ export default function About() {
     </Link>
   );
   return (
-    <div className="flex justify-end align-middle gap-10">
+    <div className="flex justify-end align-middle gap-10 mt-64">
       <Image
         src="/scottylabs.svg"
         width={120}

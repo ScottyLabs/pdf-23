@@ -18,6 +18,7 @@ const config: Config = {
         "secondary-blue": "#076cff",
         "primary-yellow": "#dcf537",
         "primary-pink": "#ff51cc",
+        neutral: "#ebeceb",
       },
     },
   },
