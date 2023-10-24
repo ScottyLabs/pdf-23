@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef } from "react";
 import { Canvas, useLoader } from "@react-three/fiber";
-import { TextureLoader } from "three/src/loaders/TextureLoader";
+import * as THREE from "three";
 import { OrbitControls } from "@react-three/drei";
 import {
   useSpring,
@@ -28,7 +28,7 @@ export default function Scotty() {
   }, []);
 
   return (
-    <div ref={container} className='-mr-48 z-50'>
+    <div ref={container} className="-mr-48 z-50">
       <Canvas>
         <OrbitControls enableZoom={false} enablePan={false} />
         <ambientLight intensity={3} />
@@ -51,7 +51,7 @@ function Cube({ progress }: { progress: ReturnType<typeof useSpring> }) {
     y: useSpring(useMotionValue(0), options),
   };
 
-  const manageMouseMove = (e) => {
+  const manageMouseMove = (e: MouseEvent) => {
     const { innerWidth, innerHeight } = window;
     const { clientX, clientY } = e;
     const x = -0.5 + clientX / innerWidth;
@@ -62,10 +62,10 @@ function Cube({ progress }: { progress: ReturnType<typeof useSpring> }) {
 
   useEffect(() => {
     window.addEventListener("mousemove", manageMouseMove);
-    return () => window.removeEventListener("mouse", manageMouseMove);
+    return () => window.removeEventListener("mousemove", manageMouseMove);
   }, []);
 
-  const scotty_texture = useLoader(TextureLoader, "/scottylabs.jpg");
+  const scotty_texture = useLoader(THREE.TextureLoader, "/scottylabs.jpg");
 
   return (
     <motion.mesh ref={mesh} rotation-y={progress} rotation-x={progress}>
