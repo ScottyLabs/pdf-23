@@ -4,10 +4,10 @@ export default function Speakers() {
   return (
     <div>
       <Image
-        src="/speakers.svg"
+        src="/speakers.png"
         alt="Speakers"
-        width={256}
-        height={256}
+        width={1440}
+        height={1882}
         className="w-full max-w-4xl mx-auto py-12"
       />
     </div>
