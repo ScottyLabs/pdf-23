@@ -34,7 +34,7 @@ function Cell({
 
 export default function Schedule() {
   return (
-    <div className='mt-32'>
+    <div className="mt-32">
       <h1 className="text-5xl font-extrabold">Schedule</h1>
       <p className="font-bold mt-2">See you there at Rashid (GHC 4401)!</p>
       <p className="font-thin">*Javascript Lab hosted separately at GHC 4307</p>
@@ -92,7 +92,7 @@ export default function Schedule() {
         </Cell>
         <Cell color="pink" rows={1} cols={3}>
           <div>
-            <div className="text-xl">Lunch & Panel</div>
+            <div className="text-xl">Lunch & Internship Panel</div>
             <div className="font-thin text-sm">GHC 4307</div>
           </div>
         </Cell>
@@ -124,7 +124,7 @@ export default function Schedule() {
         </Cell>
         <Cell color="pink" rows={1} cols={1}>
           <div>
-            <div className="text-xl">CSS</div>
+            <div className="text-xl">CSS Lab</div>
             <div className="font-thin text-sm">GHC 4401</div>
           </div>
         </Cell>
@@ -155,9 +155,19 @@ export default function Schedule() {
             <div className="font-thin text-sm">GHC 4215</div>
           </div>
         </Cell>
-        <Cell color="yellow" rows={1} cols={1}>
+        <Cell color="pink" rows={1} cols={1}>
           <div>
             <div className="text-xl">5:15 PM</div>
+          </div>
+        </Cell>
+        <Cell color="pink" rows={1} cols={3}>
+          <div>
+            <div className="text-xl">Break</div>
+          </div>
+        </Cell>
+        <Cell color="yellow" rows={1} cols={1}>
+          <div>
+            <div className="text-xl">6 PM</div>
           </div>
         </Cell>
         <Cell color="yellow" rows={1} cols={3}>
