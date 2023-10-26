@@ -45,7 +45,7 @@ export default function Schedule() {
         <Cell color="blue" rows={1} cols={3}>
           <span className="text-xl">
             <div>Opening Ceremony</div>
-            <div className="text-sm font-thin">Rashid (GHC 4401)</div>
+            <div className="text-sm font-thin">GHC 4401</div>
           </span>
         </Cell>
         <Cell color="yellow" rows={1} cols={1}>
@@ -54,7 +54,7 @@ export default function Schedule() {
         <Cell color="yellow" rows={1} cols={1}>
           <div>
             <div className="text-xl">Content</div>
-            <div className="font-thin text-sm">Rashid (GHC 4401)</div>
+            <div className="font-thin text-sm">GHC 4401</div>
           </div>
         </Cell>
         <Cell color="neutral" rows={3} cols={2}>
