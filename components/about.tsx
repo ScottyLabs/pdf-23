@@ -25,10 +25,12 @@ export default function About() {
   );
 
   return (
-    <div className="flex justify-end align-middle gap-10 mt-64">
-      <Scotty />
+    <div className="flex relative justify-end items-center gap-10 mt-64">
+      <div className="absolute -z-10 md:z-10 md:right-48 bottom-64 md:bottom-0 right-0 w-full h-64 md:h-full">
+        <Scotty />
+      </div>
       <div className="bg-primary-yellow py-16 md:pl-[15%] px-2 w-full text-left md:w-2/3">
-        <h1 className="text-5xl font-extrabold"> Who we are</h1>
+        <h1 className="text-5xl font-extrabold">Who we are</h1>
         <p className="my-4 text-lg max-w-lg">
           The Portfolio Development Fair is run by {slLink}
         </p>

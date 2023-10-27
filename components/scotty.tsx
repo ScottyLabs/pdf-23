@@ -28,7 +28,7 @@ export default function Scotty() {
   }, []);
 
   return (
-    <div ref={container} className="-mr-48 z-50 hidden md:block">
+    <div ref={container} className="h-full">
       <Canvas>
         <OrbitControls enableZoom={false} enablePan={false} />
         <ambientLight intensity={3} />
