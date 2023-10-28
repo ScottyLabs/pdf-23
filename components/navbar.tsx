@@ -16,7 +16,7 @@ export default function Navbar() {
       </Link>
       <div className="self-stretch flex items-stretch">
         <Link
-          href="/setup"
+          href="https://docs.google.com/document/d/1JlkWTMW7M6936WBZW1s_i_p-6SqKta9PpIbl5wL2jSM/edit"
           className="px-4 flex items-center hover:bg-primary-yellow font-bold"
         >
           Setup
